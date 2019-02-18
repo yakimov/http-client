@@ -1,0 +1,21 @@
+{
+    "name": "s25/http-client",
+    "description": "Easy adapter for GuzzleHttp. GET, POST, Cookie, Proxy.",
+    "keywords": ["parsing", "http", "download"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Yakimov",
+            "email": "vovka@s25.ru"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "S25\\HTTPClient\\": "src/"
+        }
+    }
+}
