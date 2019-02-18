@@ -7,6 +7,13 @@ Easy adapter for GuzzleHttp. GET, POST, Cookie, Proxy.
 ## How to Use
 
 ```PHP
+<?php
+
+require 'vendor/autoload.php';
+
+use S25\HTTPClient\Client;
+use S25\HTTPClient\UserAgent;
+
 $client = new Client();
 $result = $client->get('http://httpbin.org/headers');
 echo $result.PHP_EOL;
