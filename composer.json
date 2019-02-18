@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "S25\\": "src/"
+            "S25\\HTTPClient\\": "src/"
         }
     }
 }
